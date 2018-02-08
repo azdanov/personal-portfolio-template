@@ -6,5 +6,6 @@
     "item",
     "main",
     "port"
-  ]
+  ],
+  "stylelint.enable": true
 }

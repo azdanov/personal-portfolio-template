@@ -16,38 +16,46 @@
 }
 
 .bg-warning {
-  background-color: #e6ac00 !important;
+  background-color: #e9b416 !important;
 }
 
 #main-header {
   h1 {
     font-size: 2.5rem;
+
     @media screen and (min-width: 576px) {
       font-size: 3.5rem;
     }
   }
+
   img {
     max-height: 100%;
     max-width: 100%;
   }
+
   .social {
     &:hover {
       opacity: 0.85;
     }
   }
+
   .port-item {
     width: 30%;
+
     &:hover {
       opacity: 0.9;
       cursor: pointer;
     }
+
     &[aria-expanded="true"]:hover {
       opacity: 1;
     }
+
     &[aria-expanded="true"] {
       z-index: 1;
       margin-bottom: -1px;
     }
+
     @media (min-width: 768px) {
       padding-top: 0.9em !important;
       padding-bottom: 0.7em !important;
@@ -63,4 +71,10 @@
       padding-bottom: 2.18em !important;
     }
   }
+}
+
+.message-area {
+  min-height: 48px;
+  height: 40px;
+  padding: 30px 5px;
 }
