@@ -1,0 +1,63 @@
+.bg-black {
+  background: #222;
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #277fdd !important;
+}
+
+.bg-success {
+  background-color: #2ba146 !important;
+}
+
+.bg-danger {
+  background-color: #c12534 !important;
+}
+
+.bg-warning {
+  background-color: #e6ac00 !important;
+}
+
+#main-header {
+  h1 {
+    font-size: 2.5rem;
+    @media screen and (min-width: 576px) {
+      font-size: 3.5rem;
+    }
+  }
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .social {
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+  .port-item {
+    width: 30%;
+    &:hover {
+      opacity: 0.9;
+      cursor: pointer;
+    }
+    &[aria-expanded="true"] {
+      z-index: 1;
+      margin-bottom: -1px;
+    }
+    @media (min-width: 768px) {
+      padding-top: 0.9em !important;
+      padding-bottom: 0.7em !important;
+    }
+
+    @media (min-width: 992px) {
+      padding-top: 1.9em !important;
+      padding-bottom: 1.7em !important;
+    }
+
+    @media (min-width: 1200px) {
+      padding-top: 2.16em !important;
+      padding-bottom: 2.18em !important;
+    }
+  }
+}
