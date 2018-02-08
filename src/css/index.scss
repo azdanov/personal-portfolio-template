@@ -41,6 +41,9 @@
       opacity: 0.9;
       cursor: pointer;
     }
+    &[aria-expanded="true"]:hover {
+      opacity: 1;
+    }
     &[aria-expanded="true"] {
       z-index: 1;
       margin-bottom: -1px;

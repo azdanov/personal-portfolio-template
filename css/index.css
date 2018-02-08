@@ -32,6 +32,8 @@
   #main-header .port-item:hover {
     opacity: 0.9;
     cursor: pointer; }
+  #main-header .port-item[aria-expanded="true"]:hover {
+    opacity: 1; }
   #main-header .port-item[aria-expanded="true"] {
     z-index: 1;
     margin-bottom: -1px; }
